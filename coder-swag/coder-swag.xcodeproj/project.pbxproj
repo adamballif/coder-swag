@@ -13,6 +13,8 @@
 		44453D462207F7050062458A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44453D452207F7050062458A /* Assets.xcassets */; };
 		44453D492207F7050062458A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44453D472207F7050062458A /* LaunchScreen.storyboard */; };
 		44453D542207FD6B0062458A /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44453D532207FD6B0062458A /* CategoryCell.swift */; };
+		44453D56220800CD0062458A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44453D55220800CD0062458A /* Category.swift */; };
+		44453D59220802CE0062458A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44453D58220802CE0062458A /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		44453D482207F7050062458A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44453D4A2207F7050062458A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44453D532207FD6B0062458A /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		44453D55220800CD0062458A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		44453D58220802CE0062458A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		44453D3D2207F7030062458A /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				44453D57220802BF0062458A /* Services */,
 				44453D522207FCED0062458A /* View */,
 				44453D502207FCDE0062458A /* Model */,
 				44453D512207FCE70062458A /* Controller */,
@@ -71,6 +76,7 @@
 		44453D502207FCDE0062458A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				44453D55220800CD0062458A /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				44453D532207FD6B0062458A /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		44453D57220802BF0062458A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44453D58220802CE0062458A /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				44453D412207F7040062458A /* CategoryVC.swift in Sources */,
 				44453D3F2207F7040062458A /* AppDelegate.swift in Sources */,
 				44453D542207FD6B0062458A /* CategoryCell.swift in Sources */,
+				44453D56220800CD0062458A /* Category.swift in Sources */,
+				44453D59220802CE0062458A /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
